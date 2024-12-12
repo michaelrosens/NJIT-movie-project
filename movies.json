@@ -68,5 +68,33 @@
           "likes": 812,
           "dislikes": 101,
           "posterindex": 0
-    }
+    },
+    {
+        "title": "Memento",
+        "iscore": 8.4,
+        "rating": "R",
+        "runtime": 113,
+        "released": [2001, 3, 16],
+        "country": "USA",
+        "posters": ["img/memento.jpg"],
+        "imdb": "https://www.imdb.com/title/tt0209144/",
+        "website": "https://www.nolanfans.com/forums/viewtopic.php?t=11589&f=10",
+        "likes": 821,
+        "dislikes": 143,
+        "posterindex": 0
+  },
+  {
+    "title": "Goodfellas",
+    "iscore": 8.7,
+    "rating": "R",
+    "runtime": 145,
+    "released": [1990, 9, 19],
+    "country": "USA",
+    "posters": ["img/goodfellas.jpg"],
+    "imdb": "https://www.imdb.com/title/tt0099685/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_goodfellas",
+    "website": "https://www.warnerbros.com/movies/goodfellas",
+    "likes": 851,
+    "dislikes": 153,
+    "posterindex": 0
+}
 ]

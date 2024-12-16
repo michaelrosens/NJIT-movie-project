@@ -1,4 +1,3 @@
-/* This stylizes the page defaults */
 html,
 body {
     margin: 0;
@@ -8,7 +7,6 @@ body {
     background-image: url(img/geometry.jpg);
 }
 
-/* This stylizes the header area */
 .header {
     padding: 15px;
 }
@@ -17,13 +15,11 @@ body {
     color: white;
 }
 
-/* This stylizes the main page area */
 .main {
     background-color: #f2f2f2;
     padding: 40px 0;
 }
 
-/* This stylizes the poster area and poster images */
 .thumbnail {
     border: 0px;
     position: relative;
@@ -39,7 +35,6 @@ body {
     border: 2px dashed black;
 }
 
-/* This stylizes your "Poster X of Y" text */
 .imageInfo {
 	color: #959595;
 	font-style: italic;
@@ -48,7 +43,6 @@ body {
 	padding-right: 5px;
 }
 
-/* This stylizes your Title and Rating Text */
 .title,
 .released {
     color: #444;
@@ -63,7 +57,6 @@ body {
     font-weight: 200;
 }
 
-/* This shapes your IMDB score area */
 .score {
     background-color: #39D1B4;
     color: #fff;
@@ -79,7 +72,6 @@ body {
     right: 25px;
 }
 
-/* This contains your like and dislike buttons */
 .social {
     text-align: right;
     -webkit-user-select: none;
@@ -90,7 +82,6 @@ body {
     top: -20px;
 }
 
-/* This shapes your like and dislike buttons */
 .likes,
 .dislikes {
     cursor: pointer;
@@ -107,15 +98,52 @@ body {
     transition: 500ms;
 }
 
-/* This makes sure your Github Button is centered */
 .footer {
     text-align: center;
     margin: 80px 0 110px;
 }
 
-/* This makes sure your Github Button text is small */
 #github{
 	font-size: small;
 }
 
-/* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
+/* Like and Dislike Hover Effects */
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.likes, .dislikes {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.likes:hover, .dislikes:hover {
+  transform: scale(1.1);
+}
+
+.likes:hover {
+  background-color: rgba(40, 167, 69, 0.2); 
+  color: limegreen;
+}
+
+.dislikes:hover {
+  background-color: rgba(220, 53, 69, 0.2); 
+  color: red;
+}
+
+.likes i, .dislikes i {
+  margin-right: 5px;
+  transition: color 0.3s ease;
+}
+
+.likes:hover i {
+  color: green;
+}
+
+.dislikes:hover i {
+  color: red;
+}

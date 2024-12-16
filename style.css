@@ -147,3 +147,12 @@ body {
 .dislikes:hover i {
   color: red;
 }
+
+.social p {
+  cursor: pointer;
+  user-select: none;
+}
+
+.social p:hover {
+  opacity: 0.8;
+}

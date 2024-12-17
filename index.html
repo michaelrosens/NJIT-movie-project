@@ -44,17 +44,15 @@
 						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ movies[index].iscore }} </p>
 						<p class="runtime">Runtime: {{ movies[index].runtime }}</p>
 						<p class="released">Released: {{ movies[index].released }} | Rated: {{ movies[index].rating }}</p>
-						<p class="websites">Websites: <a> {{ movies[index].imdb }} </a> | <a>{{ movies[index].website }}</a></p>
-
-						<div class="social">
+						<a :href="movies[index].imdb" target="_blank">IMDB</a> | <a :href="movies[index].website" target="_blank">Official</a>
+						
+						  <div class="social">
 							<p class="likes" @click="incrementLikes(movie)">
 							  <i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ movie.likes }}
 							</p>
 							<p class="dislikes" @click="incrementDislikes(movie)">
 							  <i class="bi bi-hand-thumbs-down"></i> {{ movie.dislikes }}
 							</p>
-						  </div>
-						  
 	            </div>
 	        </div>
 
